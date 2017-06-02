@@ -61,9 +61,11 @@ function newGrid (newSize) {
             // $('div').off();
     }
 
-    $('#erase').on('click', clearGrid);
+    $('#reset').on('click', clearGrid);
     //Allows user to color
       $('div').on('mouseenter', '.column', function(){
         $(this).css('background-color', 'black');
       });
+
+
 });

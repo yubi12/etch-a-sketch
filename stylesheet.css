@@ -39,8 +39,9 @@
   height: 100px;
   border-radius: 100px;
   position: relative;
-  bottom: 115px;
-  left:350px;
+  z-index: 11;
+  bottom: -487px;
+  left:50px;
 
 }
 
@@ -50,12 +51,13 @@
   height: 100px;
   border-radius: 100px;
   position: relative;
-  left: 825px;
-  bottom: 216px;
+  left: 500px;
+  z-index: 11;
+  bottom: -386px;
 
 }
 
-#erase {
+#reset {
 border-radius:6px;
 background-color: white;
 color: #003566;
@@ -63,9 +65,9 @@ border: grey;
 font-family: arial;
 padding:15px;
 position: relative;
-/*z-index: 4;*/
-bottom: 198px;
-left:575px;
+z-index: 10;
+bottom: -655px;
+left:265px;
 }
 
 #set-pixels {
@@ -76,9 +78,9 @@ left:575px;
   font-family: arial;
   padding:15px;
   position: relative;
-  /*z-index: 4;*/
-  bottom: 198px;
-  left: 573px;
+  bottom: -655px;
+  z-index: 10;
+  left: 273px;
 }
 
 #twitter {
@@ -89,8 +91,9 @@ left:575px;
   font-family: arial;
   padding:15px;
   position: relative;
-  bottom: 50px;
-  left: 900px;
+  z-index: 12;
+  bottom: -350px;
+  left: 660px;
 }
 
 body {
